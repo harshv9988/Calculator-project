@@ -1,0 +1,121 @@
+#elongate{
+    flex-grow: 18;
+}
+#cal-body{
+    width: 36%;
+    height: auto;
+    border: 2px solid black;
+    margin: 100px auto;
+    /* margin-top: 100px; */
+    padding: 8px;
+    background-color: #1c1d2a78;
+}
+
+#display-container{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #f8f8f8cc;
+}
+
+#display{
+    text-align: right;
+    font-size: xxx-large;
+    font-family: monospace;
+}
+
+#button-cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.button{
+    width: 122px;
+    height: 68px;
+    border: 1px solid black;
+    margin: 0px 0px 0px 3px;
+    flex-grow: 1;
+    background-color: #c1c2cc;
+    text-align: center;
+}
+.orang-col{
+    background-color: #f25252b5;
+}
+
+@media screen and (max-width:1295px)
+{  
+     #elongate{
+        flex-grow: 7;
+    }
+
+    .button{
+        width: 90px;
+    }
+    
+}
+@media screen and (max-width:1070px)
+{
+    .button{
+        width: 70px;
+    }
+}
+@media screen and (max-width:870px)
+{
+    .button{
+        width: 62px;
+    }
+    #elongate{
+        flex-grow: 12;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .button{
+        width: 50px;
+    }
+}
+@media screen and (max-width:670px)
+{
+    .button{
+        width: 45px;
+    }
+}
+@media screen and (max-width:570px)
+{
+    .button{
+        width: 40px;
+    }
+}
+
+@media screen and (max-width:420px)
+{   
+    .button{
+        width: 25px;
+        height: 60px;
+    }
+    #elongate{
+        flex-grow: 8;
+    }
+    
+}
+@media screen and (max-width:370px)
+{
+    .button{
+        height: 45px;
+    }
+    #elongate{
+        flex-grow: 22;
+    }
+}
+
+@media screen and (max-width:320px)
+{
+    .button{
+        width: 20px;
+    }
+}
