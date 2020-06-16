@@ -1,3 +1,7 @@
+h2{
+    font-size: 1.5rem;;
+}
+
 #elongate{
     flex-grow: 18;
 }
@@ -93,7 +97,9 @@
 }
 
 @media screen and (max-width:420px)
-{   
+{   html{
+        font-size: 10px;
+    }
     .button{
         width: 25px;
         height: 60px;

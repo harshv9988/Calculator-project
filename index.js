@@ -15,7 +15,7 @@ for(var i=0;i<buttons.length;i++)
         function red(){
             clr.style.backgroundColor = "#f25252b5"
         }
-        var value = this.getAttribute('data-value'); 
+        var value = this.getAttribute('data-value');  //Alternative buttons[i].getAttribute but in for loop it should be let instead of var i
         if(value=='+')
         {
             operator = '+';
